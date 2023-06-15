@@ -4321,6 +4321,7 @@ def _CheckAndroidWebkitImports(input_api, output_api):
     """Checks that code uses org.chromium.base.Callback instead of
        android.webview.ValueCallback except in the WebView glue layer
        and WebLayer.
+       Test update
     """
     valuecallback_import_pattern = input_api.re.compile(
         r'^import android\.webkit\.ValueCallback;$')
