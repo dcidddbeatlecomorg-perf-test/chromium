@@ -6,7 +6,7 @@ Chromium uses SwiftShader in two different ways:
 
 1) **As the OpenGL ES driver**
 
-When Chromium uses SwiftShader as the OpenGL ES driver, Chromium behaves as if it was running a on regular GPU, while actually running on SwiftShader. This allows Chromium to exercise hardware only code paths on GPU-less bots.
+When Chromium uses SwiftShader as the OpenGL ES driver, Chromium behaves as if it was running a on regular GPU, while actually running on SwiftShader. This allows Chromium to exercise hardware only code paths on GPU-less bots. Test1231
 
 2) **As the WebGL fallback**
 
